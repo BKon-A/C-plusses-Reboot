@@ -47,9 +47,14 @@ public:
 		return height;
 	}
 
-	void SetRadius_n_Height(double radValue, double heiValue)
+	void setRadius(double radValue)// double heiValue)
 	{
 		radius = radValue;
+		//height = heiValue;
+	}
+	void setHeight(double heiValue)// double heiValue)
+	{
+		//radius = radValue;
 		height = heiValue;
 	}
 
@@ -81,19 +86,20 @@ int main()
 
 	Cone thirdCone;
 
-	thirdCone.SetRadius_n_Height(storageR, storageH);
+	thirdCone.setRadius_n_Height(storageR);
 	
 	firstCone.print_val();
 	secondCone.print_val();
 	thirdCone.print_val();
 
-	Cone* P = new Cone[3];
-	P->SetRadius_n_Height(5.5, 6.6);
-	(P + 1)->SetRadius_n_Height(50.5, 36.6);
-	(P + 2)->SetRadius_n_Height(45.5, 77.2);
+	Cone* P = new Cone[4];
+	P->setRadius_n_Height(5.5);
+	P->setHeight(6.5);
+	(P + 1)->setRadius_n_Height(50.5);
+	(P + 2)->setRadius_n_Height(45.5);
 	
 	void (Cone::* pf)();
 	pf = &Cone::print_val;
-	(P[1].*pf)();
+	(P[0].*pf)();
 
 }

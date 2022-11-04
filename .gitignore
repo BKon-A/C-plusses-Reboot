@@ -361,3 +361,10 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+OOP_Laba_3/OOP_Laba_3.vcxproj
+OOP_Laba_3/Main.cpp
+OOP_Laba_3/data.txt
+OOP_Laba_3/OOP_Laba_3.vcxproj.filters
+OOP_Lab_4/OOP_Lab_4.vcxproj
+OOP_Lab_4/OOP_Lab_4.vcxproj.filters
+OOP_Lab_4/Main.cpp
