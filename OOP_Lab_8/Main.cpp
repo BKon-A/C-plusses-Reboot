@@ -88,39 +88,6 @@ bool operator == (OneDementionalArray<Arrays>& array1, OneDementionalArray<Array
 	}
 }
 
-//template<class Operators>
-//bool operator == (OneDementionalArray<Arrays>, OneDementionalArray<Arrays>& array2)
-//{
-//	if (SIZE == array1.SIZE && SIZE == array2.SIZE)
-//	{
-//
-//		//for (int i = 0; i < SIZE; i++)		out << obj[i] << " ";
-
-//		//{
-//		//	if (array1[i] == array2[i])
-//		//	{
-//		//		//cout << "Hits: " << i;
-//		//	}
-//		//	else if (i == SIZE)
-//		//	{
-//		//		cout << "\nArrays is equal!\n";
-//		//		//return true;
-//		//	}
-//		//	else
-//		//	{
-//		//		break;
-//		//	}
-//		//	
-//		//	cout << "\nArrays is unequal!\n";
-//		//	/*return false;*/
-//		//}
-//	}
-//	else
-//	{
-//		cout << "\nArrays is unequal!\n";
-//		/*return false;*/
-//	}
-//}
 		
 int main()
 {
