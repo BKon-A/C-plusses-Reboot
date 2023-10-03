@@ -17,17 +17,17 @@ public:
 	OneDementionalArray() 
 	{
 
-		/*for (int i = 0; i < SIZE; i++)
+		for (int i = 0; i < SIZE; i++)
 		{
 			mass[i] = rand() % 13;
 			cout << mass[i] << " ";
-		}*/
-
-		for (int i = 0; i < SIZE; i++) // for equal check
-		{
-			mass[i] = i;
-			cout << mass[i] << " ";
 		}
+
+		//for (int i = 0; i < SIZE; i++) // for equal check
+		//{
+		//	mass[i] = i;
+		//	cout << mass[i] << " ";
+		//}
 
 		cout << endl;
 	}

@@ -80,7 +80,7 @@ public:
 
 	void tokenize(string const& str, const char delim, vector<string>& out)
 	{
-		stringstream ss(str); // побудова строкового потоку
+		stringstream ss(str); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 
 		string s;
 		while (getline(ss, s, delim))

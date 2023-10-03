@@ -53,10 +53,10 @@ public:
 	{
 		return volume;
 	}
-	void setVolume(float volume)
+	/*void setVolume(float volume)
 	{
 		this->volume = volume;
-	}
+	}*/
 
 	void setValue(int value)
 	{

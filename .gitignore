@@ -368,3 +368,9 @@ OOP_Laba_3/OOP_Laba_3.vcxproj.filters
 OOP_Lab_4/OOP_Lab_4.vcxproj
 OOP_Lab_4/OOP_Lab_4.vcxproj.filters
 OOP_Lab_4/Main.cpp
+OOP_Lab_4/x64/Debug/Main.obj
+OOP_Lab_4/x64/Debug/OOP_Lab_4.ilk
+OOP_Lab_4/x64/Debug/OOP_Lab_4.log
+OOP_Lab_4/x64/Debug/vc143.idb
+OOP_Lab_4/x64/Debug/vc143.pdb
+OOP_Lab_5/Main.cpp
